@@ -1,0 +1,16 @@
+[project]
+name = "pikvm-vl-mcp"
+version = "0.1.0"
+description = "MCP server that gives Codex direct PiKVM screenshot, OCR, keyboard, and mouse control."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "httpx>=0.28.0",
+  "mcp>=1.9.0",
+  "python-dotenv>=1.0.0",
+  "websockets>=15.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
